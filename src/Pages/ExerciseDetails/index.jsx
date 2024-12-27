@@ -12,7 +12,7 @@ import SimilarExercises from "../../components/SimilarExercises";
 export default function ExerciseDetails() {
   const [exerciseDetail, setExerciseDetail] = useState({});
   const [exerciseVideos, setExerciseVideos] = useState([]);
-  const [x, setTargetMuscleExercises] = useState([]);
+  const [targetMuscleExercises, setTargetMuscleExercises] = useState([]);
   const [equipmentExercises, setEquipmentExercises] = useState([]);
   const { id } = useParams();
   useEffect(() => {
